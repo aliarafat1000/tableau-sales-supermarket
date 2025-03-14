@@ -1,9 +1,15 @@
 # 📊 Sales and Customer Dashboard Project
 
 ### 🚀 Project Overview
-This project showcases advanced time series analysis for year-over-year (YoY), month-over-month (MoM), and week-over-week (WoW) sales trends. It breaks down data by categories and subcategories to provide deep insights into sales and profitability. Additionally, it features a dedicated dashboard to analyze customer behavior.
+This project showcases advanced time series analysis for year-over-year (YoY), month-over-month (MoM), and week-over-week (WoW) sales trends. 
 
-Using Tableau's powerful features such as filters, parameters, and calculated fields, I have created dynamic and interactive visualizations that make data exploration intuitive and insightful. The project also includes data modeling with joins and relationships to structure the data efficiently.
+---
+
+Sales Dashboard
+![Screenshot 2025-03-14 094053](https://github.com/user-attachments/assets/10e95b67-bc89-4803-a1c8-d6522bfee798)
+
+Customer Dashboard
+![Screenshot 2025-03-14 090747](https://github.com/user-attachments/assets/fd815fea-c42c-4b20-b147-e6ceb5f0be74)
 
 ---
 
@@ -18,6 +24,12 @@ Using Tableau's powerful features such as filters, parameters, and calculated fi
 | Calculated Fields| Custom formulas for advanced insights             |
 | Filters and Parameters | Interactive dashboards for deeper analysis |
 | Python           | Data preprocessing and manipulation               |
+
+---
+
+It breaks down data by categories and subcategories to provide deep insights into sales and profitability. Additionally, it features a dedicated dashboard to analyze customer behavior.
+
+Using Tableau's powerful features such as filters, parameters, and calculated fields, I have created dynamic and interactive visualizations that make data exploration intuitive and insightful. The project also includes data modeling with joins and relationships to structure the data efficiently.
 
 ---
 
@@ -38,6 +50,40 @@ The project contains two main dashboards:
 - Dynamic interactivity for real-time insights.
 - Sleek and modern visual design, making insights easily digestible.
 - Comprehensive trend analysis to spot growth opportunities.
+
+## 🔍 Interactive Features and Filters
+
+One of the standout features of this dashboard is its **interactivity**. The dashboard is designed to provide an intuitive and engaging user experience, allowing users to explore data seamlessly. Here’s what makes it interactive:
+
+### 📊 Filter Options
+- **Category and Subcategory Filters:** Easily filter the data by product categories and subcategories to analyze specific segments of sales and customer behavior.
+- **Year Filters:** Choose specific years to compare performance across different time periods.
+- **Location Filters:** Analyze data from different regions to understand geographical trends.
+
+![salary-dashboard-filters](https://github.com/user-attachments/assets/673cc8d1-5310-4ba6-98e6-4f724a9b28e9)
+
+### ✨ Interactive Charts
+The charts are highly interactive, allowing you to **click on data points** or **select data within one chart** to automatically update all related charts on the dashboard. This interconnected approach ensures that users can quickly drill down into insights without losing context.
+
+These interactive features not only enhance usability but also empower users to make **data-driven decisions** more efficiently!
+
+![salary-chart-filters](https://github.com/user-attachments/assets/4006358a-a344-48fb-95a6-c9af099e0ea1)
+
+---
+
+## 🗃️ Data Model
+
+The data model follows a **star schema** with the **Orders** table as the central fact table, connected to three dimension tables. All data is sourced from **CSV files**, loaded and processed in Tableau for analysis and visualization.  
+
+### 🔗 Data Model Structure:
+- **Orders (Fact Table):** Contains transactional data such as order ID, date, sales amount, profit, and quantity.  
+- **Customers (Dimension Table):** Stores customer-related information like customer ID, name, and contact details.  
+- **Location (Dimension Table):** Holds location-specific data such as city, state, region, or country.  
+- **Products (Dimension Table):** Includes product details like product ID, name, category, subcategory, and pricing.  
+
+This data model enables efficient querying and insightful analysis by leveraging joins between the **Orders** fact table and the related dimension tables. The star schema structure is optimized for interactive dashboarding and visualization in Tableau. 💡
+
+![Screenshot 2025-03-14 101812](https://github.com/user-attachments/assets/c3865dfe-df55-4c6d-b038-69e6ce326c6a)
 
 ---
 
