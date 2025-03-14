@@ -1,6 +1,55 @@
-# tableau-sales-supermarket
-This Tableau based dashboard showcase sales of a supermarket over course of 4 years. It helps analyze year by year, month by month and week by week sales of different products as well as customer behavior.
+# 📊 Sales and Customer Dashboard Project
 
-<div class='tableauPlaceholder' id='viz1741922347883' style='position: relative'><noscript><a href='#'><img alt='Customer Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;project_course&#47;CustomerDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='project_course&#47;CustomerDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;project_course&#47;CustomerDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741922347883');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='2877px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+### 🚀 Project Overview
+This project showcases advanced time series analysis for year-over-year (YoY), month-over-month (MoM), and week-over-week (WoW) sales trends. It breaks down data by categories and subcategories to provide deep insights into sales and profitability. Additionally, it features a dedicated dashboard to analyze customer behavior.
 
-https://public.tableau.com/views/project_course/CustomerDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Using Tableau's powerful features such as filters, parameters, and calculated fields, I have created dynamic and interactive visualizations that make data exploration intuitive and insightful. The project also includes data modeling with joins and relationships to structure the data efficiently.
+
+---
+
+### 🛠️ Skills and Tools Used
+| Skill/Tool        | Description                                      |
+|------------------|--------------------------------------------------|
+| Tableau          | Data visualization and dashboard creation         |
+| Data Modeling    | Creating joins and relationships                  |
+| EDA (Exploratory Data Analysis) | Analyzing trends and patterns           |
+| Time Series Analysis | YoY, MoM, WoW sales analysis                    |
+| Data Cleaning    | Handling missing values and data formatting       |
+| Calculated Fields| Custom formulas for advanced insights             |
+| Filters and Parameters | Interactive dashboards for deeper analysis |
+| Python           | Data preprocessing and manipulation               |
+
+---
+
+### 💡 Project Description
+The project contains two main dashboards:
+1. **Sales Dashboard**: Analyzes sales, profits, and quantities over time. Highlights include:
+   - 📈 Total Sales, Total Profits, and Total Quantity with percentage changes compared to the previous year.
+   - 🔥 Visualization of highest and lowest months for quick comparison.
+   - 📊 Sales and Profit by Category with clear profit/loss distinction.
+   - 📅 Sales & Profits Trends over Time, identifying months with above and below average performance.
+
+2. **Customer Dashboard**: Provides insights into customer behavior and profitability, including:
+   - 👥 Total Customers, Total Orders, and Average Sales per Customer.
+   - 📅 Customer Distribution by Number of Orders for identifying purchasing patterns.
+   - 🏆 Top 10 Customers by Profit with detailed breakdowns.
+
+### ✨ Highlights
+- Dynamic interactivity for real-time insights.
+- Sleek and modern visual design, making insights easily digestible.
+- Comprehensive trend analysis to spot growth opportunities.
+
+---
+
+### 📂 How to Use
+1. Clone the repository.
+2. Open the Tableau workbook in Tableau Desktop.
+3. Interact with the filters and explore insights across various dimensions.
+
+---
+
+### 🎯 Impact
+This project demonstrates my ability to effectively analyze and visualize complex datasets using Tableau. The dashboards offer valuable business insights that drive strategic decision-making and are tailored for real-world applications.
+
+Feel free to reach out if you have any questions or feedback! 😄
+
